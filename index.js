@@ -13,7 +13,7 @@ app.get('/:id', function(req, res){
     res.sendFile(__dirname +'/web/index.html',{custid:cust_id});
 });
 
- g  
+var port = process.env.PORT || 3001; 
 var host = os.hostname();
 console.log('Listening on port ' +port);
 
