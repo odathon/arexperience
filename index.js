@@ -6,14 +6,14 @@ console.log("express created");
 app.use(express.static(path.join(__dirname, 'web')));
 console.log("getting index.html");
 
-app.get('/:id', function(req, res){
+app.get('/', function(req, res){
 	console.log("rendering index.html");
 	var cust_id=req.params.id;
-	console.log(cust_id);
-    res.sendFile(__dirname +'/web/index.html',{custid:cust_id});
+	console.log( );
+    res.sendFile(__dirname +'/web/index.html');
 });
 
-var port = process.env.PORT || 3001; 
+var port = process.env.PORT || 3000; 
 var host = os.hostname();
 console.log('Listening on port ' +port);
 
