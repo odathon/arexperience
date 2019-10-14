@@ -35,7 +35,7 @@ function initiateModels() {
     var buildersArray = [
       { 
         name: 'pyra',
-        dialogue: 'Hi there , I\'m Ora a HR Manager, My day to day job requires me to check employee wellness, time etc. With Oracle Cloud I can achieve that!',
+        dialogue: 'Hi there , I\'m Ora a HR Manager, My day to day job requires me to check employee wellness, time etc. With Oracle HCM Cloud I can achieve that!',
         tool: new Tool('xyz', 'You have found Ora\'s Sword!'),
         successDialogue: 'Thanks for my hammer!',
         id: 'isbooth1',
