@@ -18,9 +18,9 @@
         <a-asset-item id="pyra-obj" src="builder-models/gege/scene.gltf"></a-asset-item>
         <a-asset-item id="biggie-obj" src="builder-models/sword/scene.gltf"></a-asset-item>
         <a-asset-item id="frenchie-obj" src="builder-models/gem/scene.gltf"></a-asset-item>
-        <a-asset-item id="toob-obj" src="builder-models/crown/scene.gltf"></a-asset-item>
-        <a-asset-item id="lil-obj" src="builder-models/bitcoin/scene.gltf"></a-asset-item>
-        <a-asset-item id="hammer-obj" src="builder-models/treasure/scene.gltf"></a-asset-item>
+        <a-asset-item id="toob-obj" src="builder-models/treasure/scene.gltf"></a-asset-item>
+        <a-asset-item id="lil-obj" src="builder-models/sword/scene.gltf"></a-asset-item>
+        <a-asset-item id="hammer-obj" src="builder-models/crown/scene.gltf"></a-asset-item>
       <!--<a-asset-item id="screwdriver-obj" src="builder-models/Screwdriver.obj"></a-asset-item>
         <a-asset-item id="hat-obj" src="builder-models/BuilderHat.obj"></a-asset-item>
         <a-asset-item id="blocks-obj" src="builder-models/BuildingBlocks.obj"></a-asset-item>
@@ -40,7 +40,8 @@
       </a-marker>
       <a-marker id="toob-marker" type="pattern" url="builder-markers/toob.patt">
         <a-entity id="toob" gltf-model="#toob-obj"
-         rotation="0 180 0" position="0 0 0" scale="0.5 0.5 0.5"></a-entity>
+        rotation="0 0 0" position="0 0 0" scale="0.006 0.006 0.006"
+         ></a-entity>
       </a-marker>
       <a-marker id="lil-marker" type="pattern" url="builder-markers/lil.patt">
         <a-entity id="lil" gltf-model="#lil-obj" 
@@ -48,7 +49,7 @@
       </a-marker>
      <a-marker id="hammer-marker" type="pattern" url="builder-markers/hammer.patt">
         <a-entity id="hammer" gltf-model="#hammer-obj" 
-        rotation="0 0 0" position="0 0 0" scale="0.006 0.006 0.006"></a-entity>
+        rotation="0 180 0" position="0 0 0" scale="0.5 0.5 0.5"></a-entity>
       </a-marker>
     </a-marker>
     <!--<a-marker id="screwdriver-marker" type="pattern" url="builder-markers/screwdriver.patt">
