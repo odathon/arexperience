@@ -35,7 +35,7 @@ function initiateModels() {
     var buildersArray = [
       { 
         name: 'pyra',
-        dialogue: 'Hi there , I\'m Ora a HR Manager, My day to day job requires me to check employee wellness, time etc. With Oracle HCM Cloud I can achieve that!',
+        dialogue: 'CONGRATULATIONS!  You just captured the last of the 5 Avatars of the Oracle MCXF Treasure Hunt!  Checkout your MCXF journey at the CX Demo booth.  Thanks for joining Oracle Modern Customer Experience Forum.',
         tool: new Tool('xyz', 'You have found Ora\'s Sword!'),
         successDialogue: 'Thanks for my hammer!',
         id: 'isbooth1',
@@ -51,7 +51,7 @@ function initiateModels() {
       },
       {
         name: 'frenchie',
-        dialogue: 'Gem of all Lands! Acquire me to get higher power to acquire and retain customers just like Oracle CX and Marketing Cloud.  ',
+        dialogue: 'Do you have fragmented understanding of your customer?  Do you know the path to connected intelligence that helps create customer-insight-driven interactions?  Let\'s talk',
         tool: new Tool('qwer', 'You have found Frenchie\'s hat!'),
         successDialogue: 'Merci!',
         id: 'isbooth3',
@@ -59,7 +59,7 @@ function initiateModels() {
       },
       {
         name: 'lil',
-        dialogue: 'As Sharp as a sword and precise should be your Database, let\'s drive Oracle Autonomous Database',
+        dialogue: 'Thanks for checking out Oracle Autonomous Data Warehouse for CX.  Learn more about the CX Apps here https://www.oracle.com/applications/customer-experience/',
         tool: new Tool('klj', 'You have found Lil\'s screwdriver!'),
         successDialogue: 'Thanks for the screwdriver!',
         id: 'isbooth4',
@@ -67,7 +67,7 @@ function initiateModels() {
       },
       {
         name: 'toob',
-        dialogue: 'A penny saved is a Penny Earned, with Oracle Financials Cloud it\'s reality ',
+        dialogue: 'Delighted to have you at the CX Demo.  Learn more about CX here https://www.oracle.com/applications/customer-experience/ ',
         tool: new Tool('nmo', 'You have finally Got the treasure'),
         successDialogue: 'Thanks for finding my wrench!',
         id: 'isbooth5',
@@ -76,7 +76,7 @@ function initiateModels() {
       },
       {
         name: 'hammer',
-        dialogue: 'The Crown of any industry, would be it\'s effective supply chain management. Experience it with Oracle SCM cloud.',
+        dialogue: 'Welcome to Oracle MCXF.  This is the start of your journey into The Experience Economy.  Are you ready?',
         tool: new Tool('nmo', 'You have finally Got the treasure'),
         successDialogue: 'Thanks for finding my wrench!',
         id:'booth6',
