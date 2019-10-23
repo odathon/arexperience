@@ -35,7 +35,7 @@ function initiateModels() {
     var buildersArray = [
       { 
         name: 'pyra',
-        dialogue: 'CONGRATULATIONS!  You just captured the last of the 5 Avatars of the Oracle MCXF Treasure Hunt!  Checkout your MCXF journey at the CX Demo booth.  Thanks for joining Oracle Modern Customer Experience Forum.',
+        dialogue: 'Hi ! I\'m PYRA, I am your HR assistant for Oracle HCM Cloud, get in touch with our HCM Consultant to knoe more.',
         tool: new Tool('xyz', 'You have found Ora\'s Sword!'),
         successDialogue: 'Thanks for my hammer!',
         id: 'isbooth1',
@@ -51,15 +51,14 @@ function initiateModels() {
       },
       {
         name: 'frenchie',
-        dialogue: 'Do you have fragmented understanding of your customer?  Do you know the path to connected intelligence that helps create customer-insight-driven interactions?  Let\'s talk',
-        tool: new Tool('qwer', 'You have found Frenchie\'s hat!'),
+        dialogue: 'Congratulations! you collected the 5th avatar at our CX booth ! hope you liked the experience',
         successDialogue: 'Merci!',
         id: 'isbooth3',
         time: 'timebooth2'
       },
       {
         name: 'lil',
-        dialogue: 'Thanks for checking out Oracle Autonomous Data Warehouse for CX.  Learn more about the CX Apps here https://www.oracle.com/applications/customer-experience/',
+        dialogue: 'Thanks for checking out Oracle Autonomous Data Warehouse(ADW).  Learn more about ADW from our specialised consultant.',
         tool: new Tool('klj', 'You have found Lil\'s screwdriver!'),
         successDialogue: 'Thanks for the screwdriver!',
         id: 'isbooth4',
@@ -67,7 +66,7 @@ function initiateModels() {
       },
       {
         name: 'toob',
-        dialogue: 'Delighted to have you at the CX Demo.  Learn more about CX here https://www.oracle.com/applications/customer-experience/ ',
+        dialogue: 'A cool as our ERP is it let\'s you maintain your Enterprise and it\'s resources just like a Crown to your Company',
         tool: new Tool('nmo', 'You have finally Got the treasure'),
         successDialogue: 'Thanks for finding my wrench!',
         id: 'isbooth5',
@@ -76,7 +75,7 @@ function initiateModels() {
       },
       {
         name: 'hammer',
-        dialogue: 'Welcome to Oracle MCXF.  This is the start of your journey into The Experience Economy.  Are you ready?',
+        dialogue: 'Oracle Supply Chain can help you with your redundant tasks in  your supply chain in a better way!',
         tool: new Tool('nmo', 'You have finally Got the treasure'),
         successDialogue: 'Thanks for finding my wrench!',
         id:'booth6',
